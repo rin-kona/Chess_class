@@ -226,8 +226,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1212399115}
-  - component: {fileID: 1212399117}
   - component: {fileID: 1212399116}
+  - component: {fileID: 1212399117}
+  - component: {fileID: 1212399118}
+  - component: {fileID: 1212399119}
   m_Layer: 0
   m_Name: Test
   m_TagString: Untagged
@@ -257,12 +259,12 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212399114}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -353,9 +355,37 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212399114}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfdb16d0471be4d1db27d95354645096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 24657f825b00348d99e9ba30d31f1762, type: 3}
+  - {fileID: 8300000, guid: f12c0b67c9b814a12b1e5f43af5d0509, type: 3}
+  - {fileID: 8300000, guid: a0e2b04c2d56447ba873b90666794e6b, type: 3}
+--- !u!114 &1212399118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212399114}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2fe50121a9e9408bba67db14ed3f6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1212399119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212399114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09bcdc6e9b2df436586cf225ca6aa5e8, type: 3}
+  m_Script: {fileID: 11500000, guid: a3a56e68b12d04a09a2aec26ca0c81d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1813924232
